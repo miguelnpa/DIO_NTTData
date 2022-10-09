@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio De Projeto Dio</title>
+</head>
+<body>
+    <h1 id="inicio" >Introdução ao HTML na Prática</h1>
+    <hr>
+    <h2>Sumário</h2>
+    <ul>
+        <li><a href="#ferramentas_utilizadas" title="Ir para: Ferramentas utilizadas">Ferramentas utilizadas</a></li>
+        <li><a href="#inspetor_elementos" title="Ir para: Inspetor de elementos">Inspetor de elementos</a></li>
+        <li><a href="#estrutura_basica" title="Ir para: Estrutura básica do HTML" >Estrutura básica do HTML</a></li>
+        <li><a href="#falando_tags" title="Ir para: Falando sobre Tags">Falando sobre Tags</a></li>
+        <li><a href="#atributos_tags" title="Ir para: Atributos das Tags">Atributos das Tags</a></li>
+        <li><a href="#textos" title="Ir para: Textos">Textos</a></li>
+        <li><a href="#listas" title="Ir para: Listas Ordenadas e Não Ordenadas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links" title="Ir para: Links">Links</a></li>
+        <li><a href="#referencia" title="Ir para: Referências">Referências</a></li>
+    </ul>
+    <h2 id="ferramentas_utilizadas">Ferramentas utilizadas</h2>
+    <small><a href="#inicio" title="voltar para o início">voltar</a></small>
+        <p>A ferramenta utilizada para a criação de sites HTML dentro deste curso é o <a href="https://code.visualstudio.com/" style="text-decoration:none;">VsCode</a> , ferramenta bastante versátil criada pela Microsoft que, dentre outras funcionalidades, permite a criação de páginas em estrutura HTML e a instalação de plugins que facilitam o desenvolvimento.</p>
+    <h2 id="inspetor_elementos">Inspetor de elementos</h2>
+    <small><a href="#inicio" title="voltar para o início">voltar</a></small>
+        <p>Outra ferramenta que pode ser bastante utilizada ou explorada é de inspeção de elementos. Essa ferramenta está presente nos mais variados navegadores, como:</p>
+        <ul>
+            <li>Chrome</li>
+            <li>Firefox</li>
+            <li>Edge</li>
+            <li>Etc...</li>
+        </ul>
+        <p>Essa ferramenta permite selecionar determinado item dentro de uma página HTML na internet e olhar sua estrutura de construção, facilitando assim o aprendizado de como determinada página ou estrutura foi construída. A forma de acesso dessa funcionalidade, no google Chrome pode via botão F12 no teclado ou clicando no botão direito do botão de depois no botão "inspecionar" dentro da página Web escolhida.</p>
+    <h2 id="estrutura_basica">Estrutura básica do HTML</h2>
+    <small><a href="#inicio" title="voltar para o início">voltar</a></small>
+    <p>O HTML tem uma estrutura pré-definida composta pelas tags "html", "head" e "body" </p>
+    <pre>
+        <code>
+            &lthtml&gt
+                &lthead&gt
+                        // O Head são coisas que vai carregar antes de exibir para o usuário
+                    &lttitle&gt Meu primeiro Html &lt/title&gt
+                &lt/head&gt
+                &ltbody&gt
+                        // Tudo que estiver no corpo é o que de fato vai aparecer para o usuário
+                &lt/body&gt
+            &lt/html&gt
+        </code>
+    </pre>
+    <p>A Tag "HTML" engloba toda a estrutura, enquanto a tag "head" é posicionada antes da tag "body" e é responsável por guardar informações sobre dados da páginas HTML. Por fim a tag body é onde irão as marcações de texto, títulos, parágrafos, etc do HTML.</p>
+
+    <h2 id="falando_tags">Falando sobre Tags</h2>
+    <small><a href="#inicio" title="voltar para o início">voltar</a></small>
+        <p>As tags são nomes específicos dentro do HTML que desempenham ações dentro do HTML. A maioria das tags tem abertura e fechamento, exemplo &lthtml&gt&lt/html&gt porém existem tags que não necessitam desse fechamento a exemplo da tag &ltimg&gt. As tags podem executar os mais variádos tipos de tarefas como colocar determinado objeto em negrito, colocar uma imagem no HTML, texto, etc. </p>
+    <h2 id="atributos_tags">Atributos das Tags</h2>
+    <small><a href="#inicio" title="voltar para o início">voltar</a></small>
+        <p>Atributos são comandos html reservados para alterar o comportamento de determinada Tag ou colocar uma classe ou identificador nele, por ex. IDs e Classes são facilitadores quando combinados com CSS para modificar visualmente elementos definidos no HTML. Outro atributo importane é o HREF que usado em conjunto com a tag a , por exemplo, permite colocar um endereço de link de uma outra página para o html ou para um elemento na mesma página HTML.</p>
+    <h2 id="textos">Textos</h2>
+    <small><a href="#inicio" title="voltar para o início">voltar</a></small>
+        <p>Em HTML as tags para modificar textos são de suma importância. Existem tags para marcar título principal da página, demarcar parágrafo, negrito, dentre outras. Seguem exemplos de tipos de Tags voltadas para modificar textos:</p>
+        <ul>
+            <li>TAG: h1 - Titulo de maior dentro de uma página</h1></li>
+            <li>TAG: h2 - Subtítulo menor que o h1</h2></li>
+            <li>TAG: p - Parágrafo. Usado toda vez que tiver ponto final.</p></li>
+            <li>TAG: blockquote - Usada para fazer citação</blockquote></li>
+            <li>TAG: u - Coloca uma linha embaixo do elemento selecionado</u></li>
+            <li>TAG: mark - Faz uma marcação no texto</mark></li>
+            <li>TAG: sup - Coloca um símbolo num nível acima da palavra, tipo uma marca registrada</sup></li>
+        </ul>
+    <h2 id="listas">Listas ordenadas e Não ordenadas</h2>
+    <small><a href="#inicio" title="voltar para o início">voltar</a></small>
+        <p>Listas são Tags bastante usadas dentro de HTML. Com listas, é possível fazer menus com opções de acesso na página HTML quando usada em conjunto com CSS. Exemplo:</p>
+        <img src="https://sebhastian.com/horizontal-list-html/html-horizontal-list-menu.png" alt="Exemplo de menu" srcset="" width="500">
+        <p>As listas podem ser do tipo ordenadas, não ordenadas ou de descrição, para as listas ordenadas eu uso a tag "ol" enquanto para a lista não ordenada eu uso a tag "ul", porém ambas contém as tags "li" que contém os elementos da lista. Já a lista de descrição utiliza a tag "dl" que engloba a tag "dt" ( título do elemento a ser descrito) e "dd" (descrição do elemento em questão" </p>
+    <h2 id="links">Links</h2>
+    <small><a href="#inicio" title="voltar para o início">voltar</a></small>
+        <p>Links são formas de Navegar dentro da propria página ou ir para outra página na internet. Usa-se a tag "a" (âncora). Eu uso o atributo href para colocar o endereço que quero acessar e o atributo target com valor "blank" ou "self" se quero que abra o link em outra aba ou na mesma.
+        </p>
+    <h2 id="referencia">Referências</h2>
+    <small><a href="#inicio" title="voltar para o início">voltar</a></small>
+        <p> Referências de Texto ou imagem usadas nessa página:</p>
+        <ul>
+            <li>Listas - <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">W3schools</a></li>
+            <li>Foto Exemplo - <a href="https://sebhastian.com/horizontal-list-html/html-horizontal-list-menu.png" target="_blank">Exemplo Menu</a></li>
+            <li>Atributos em HTML - <a href="https://tutorialehtml.com/pt/html-tutorial-atributos/" target="_blank">Tutorialehtml</a></li>
+            <li>como exibir símbolo: &lt e &gt - <a href="https://stackoverflow.com/questions/2820453/how-to-display-raw-html-code-on-an-html-page" target="_blank">stackoverflow</a></li>
+        </ul>
+</body>
+</html>
